@@ -1,5 +1,19 @@
 ## Welcome to the team 🙌
 
+-service
+
+-job
+
+-function
+
+-schema
+
+-kit
+
+-pkg
+
+-mock
+
 <!--
 
 **Here are some ideas to get you started:**
