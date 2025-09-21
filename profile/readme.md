@@ -1,18 +1,18 @@
 ## Welcome to the team 🙌
 
--service
+schema-
+api-
+be-
+fe-
+mock-
 
--job
+-service-
+-job-
+-function-
 
--function
+-pkg-
 
--schema
-
--kit
-
--pkg
-
--mock
+-kit 
 
 <!--
 
