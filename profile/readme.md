@@ -1,16 +1,25 @@
 ## Welcome to the team 🙌
 
 schema-
+
 api-
+
 be-
+
 fe-
+
 mock-
 
+
 -service-
+
 -job-
+
 -function-
 
+
 -pkg-
+
 
 -kit 
 
