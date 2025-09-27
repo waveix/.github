@@ -16,11 +16,11 @@ ops-
 
 -----
 
--service-
+-svc- (service)
 
--job-
+-worker-
 
--function-
+-fn- (function)
 
 -----
 
