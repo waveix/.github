@@ -20,7 +20,7 @@
 
 `-worker` - Worker, runs on request.
 
-`-graphql-schema` - Schema of interaction between services or layers.
+`-schema` - Schema of interaction between services or layers.
 
 `-kit` - A set of utilities. 
 
