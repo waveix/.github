@@ -16,7 +16,7 @@
 
 `-service` - Service, always works `aka deamon`.
 
-`-job` - Job, runs occasionally, or once `aka run app`.
+`-job` - Job, work occasionally, or once `aka run app`.
 
 `-worker` - Worker, runs on request.
 
