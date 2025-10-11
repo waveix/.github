@@ -14,15 +14,15 @@
 
 ## Suffix in repositories name
 
-`-service` - Працює завжди `aka deamon`.
+`-service` - Service, always works `aka deamon`.
 
-`-job` - Запускаеться час від часу, чи один раз `aka run app`.
+`-job` - Job, runs occasionally, or once `aka run app`.
 
-`-worker` - Запускаеться по запиту.
+`-worker` - Worker, runs on request.
 
-`-graphql-schema` - Схема взаємодії між сервісами/шарами.
+`-graphql-schema` - Schema of interaction between services/layers.
 
-`-kit` - Набір утиліт. 
+`-kit` - A set of utilities. 
 
 ---
 
