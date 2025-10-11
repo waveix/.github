@@ -1,36 +1,30 @@
-## Welcome to the team 🙌
+# Welcome to the team 🙌
 
-schema-
+## Prefix
 
-api-
+`be-` - Backend
 
-be-
+`bf-` - Backend for Frontend
 
-fe-
+`fe-` - Frontend
 
-mock-
+`mock-` - Mock Service
 
-ops-
+`ops-` - Operations
 
-(infra-/db-)
+## Suffix
 
------
+`-service` - Працює завжди `aka deamon`.
 
--svc- (service)
+`-job` - Запускаеться час від часу, чи один раз `aka run app`.
 
--worker-
+`-worker` - Запускаеться по запиту.
 
--fn- (function)
+`-graphql-schema` - Схема взаємодії між сервісами чи між шарами.
 
------
+`-kit` - Набір утиліт. 
 
--pkg-
-
------
-
--kit
-
------
+---
 
 Stateless/Stateful = характер приложения (хранит ли оно состояние).
 
