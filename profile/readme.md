@@ -4,7 +4,7 @@
 
 `be-` - Backend
 
-`bf-` - Backend for Frontend
+`bf-` - Backend For ...
 
 `fe-` - Frontend
 
