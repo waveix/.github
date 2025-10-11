@@ -1,6 +1,6 @@
 # Welcome to the team 🙌
 
-## Prefix
+## Prefix in repositories name
 
 `be-` - Backend
 
@@ -12,7 +12,7 @@
 
 `ops-` - Operations
 
-## Suffix
+## Suffix in repositories name
 
 `-service` - Працює завжди `aka deamon`.
 
