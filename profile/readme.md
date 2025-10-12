@@ -8,21 +8,29 @@
 
 `fe-` - Frontend
 
+`ios-` - For IOS
+
+`android-` - For Android
+
+`tv-` - For TV
+
 `mock-` - Mock Service
 
 `ops-` - Operations
 
 ## Suffix in repositories name
 
-`-service` - Service, always works `aka deamon`.
+`-service` - Service, always works `aka deamon`. (Multi-tenant)
 
-`-job` - Job, work occasionally, or once `aka run app`.
+`-job` - Job, work occasionally, or once `aka run app`. (Multi-tenant)
 
-`-worker` - Worker, runs on request.
+`-worker` - Worker, runs on request. (Multi-tenant)
+
+`-app` - Personal Application. (Single-tenant)
 
 `-schema` - Schema of interaction between services or layers.
 
-`-kit` - A set of utilities. 
+`-kit` - A set of utilities.
 
 ---
 
