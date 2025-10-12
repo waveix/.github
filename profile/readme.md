@@ -6,9 +6,9 @@
 - `be-` - Backend
 - `bf-` - Backend For ... `aka API`
 - `fe-` - Frontend
-- `ios-` - IOS For
-- `android-` - Android For
-- `tv-` - TV For
+- `ios-` - IOS For ...
+- `android-` - Android For ...
+- `tv-` - TV For ...
 - `mock-` - Mock Service
 - `ops-` - Operations
 
