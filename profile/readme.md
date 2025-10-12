@@ -17,8 +17,8 @@
 - `-job` - Job, work occasionally, or once `aka run app`. (Multi-tenant)
 - `-worker` - Worker, runs on request. (Multi-tenant)
 - `-app` - Personal Application. (Single-tenant)
-- `-schema` - Schema of interaction between services or layers.
 - `-kit` - A set of utilities.
+- `-schema` - Schema of interaction between services or layers.
 
 ## 📓 Definitions:
 
