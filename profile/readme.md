@@ -3,22 +3,22 @@
 📚 This is a list of definitions and their descriptions so that we can speak the same language within the Waveix.
 
 ## 📌 Prefix in repositories name:
+- `ops-` - Operations `CI/CD etc.`
+- `mock-` - Mock 3rd-party Service
 - `be-` - Backend
-- `bf-` - Backend For ... `aka API`
+- `bf-` - Backend For `aka API`
 - `fe-` - Frontend
-- `tv-` - TV For ...
-- `ios-` - IOS For ...
-- `android-` - Android For ...
-- `mock-` - Mock Service
-- `ops-` - Operations
+- `tv-` - TV For
+- `ios-` - IOS For
+- `android-` - Android For
 
 ## 📌 Suffix in repositories name:
-- `-service` - Service, always works `aka deamon`. (Multi-tenant)
-- `-job` - Job, work occasionally, or once `aka run app`. (Multi-tenant)
-- `-worker` - Worker, runs on request. (Multi-tenant)
-- `-app` - Personal Application. (Single-tenant)
-- `-kit` - A set of utilities.
 - `-schema` - Schema of interaction between services or layers.
+- `-kit` - A set of utilities.
+- `-app` - Personal Application. (Single-tenant)
+- `-worker` - Worker, runs on request. (Multi-tenant)
+- `-job` - Job, work occasionally, or once `aka run app`. (Multi-tenant)
+- `-service` - Service, always works `aka deamon`. (Multi-tenant)
 
 ## 📓 Definitions:
 
