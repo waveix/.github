@@ -1,4 +1,4 @@
-# 💁 ReadMe 
+# 💁 Welcome 
 
 📚 This is a list of definitions and their descriptions so that we can speak the same language within the Waveix.
 
