@@ -8,11 +8,11 @@
 
 `fe-` - Frontend
 
-`ios-` - For IOS
+`ios-` - IOS For
 
-`android-` - For Android
+`android-` - Android For
 
-`tv-` - For TV
+`tv-` - TV For
 
 `mock-` - Mock Service
 
