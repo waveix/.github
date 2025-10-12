@@ -1,6 +1,26 @@
-# 📘 This is basic information about organizing repositories
+# 💁 ReadMe 
 
-**Definition (in our understanding):**
+📚 This is a list of definitions and their descriptions so that we can speak the same language within the Waveix.
+
+## 📌 Prefix in repositories name:
+- `be-` - Backend
+- `bf-` - Backend For ... `aka API`
+- `fe-` - Frontend
+- `ios-` - IOS For
+- `android-` - Android For
+- `tv-` - TV For
+- `mock-` - Mock Service
+- `ops-` - Operations
+
+## 📌 Suffix in repositories name:
+- `-service` - Service, always works `aka deamon`. (Multi-tenant)
+- `-job` - Job, work occasionally, or once `aka run app`. (Multi-tenant)
+- `-worker` - Worker, runs on request. (Multi-tenant)
+- `-app` - Personal Application. (Single-tenant)
+- `-schema` - Schema of interaction between services or layers.
+- `-kit` - A set of utilities.
+
+## 📓 Definitions:
 
 - 👉 `Serverless` - ты не управляешь серверами, провайдер делает это за тебя.
 Обычно это FaaS (functions-as-a-service), где функции запускаются по событию и масштабируются автоматически.
@@ -25,20 +45,3 @@ Stateless-приложение = не хранит данные сессии/с�
 - 👉 `Elastic scaling` - автоматическое увеличение/уменьшение ресурсов.
 - 👉 `Fault tolerance` - система продолжает работать при сбоях.
 
-## Prefix in repositories name:
-- 👉 `be-` - Backend
-- 👉 `bf-` - Backend For ... `aka API`
-- 👉 `fe-` - Frontend
-- 👉 `ios-` - IOS For
-- 👉 `android-` - Android For
-- 👉 `tv-` - TV For
-- 👉 `mock-` - Mock Service
-- 👉 `ops-` - Operations
-
-## Suffix in repositories name:
-- 👉 `-service` - Service, always works `aka deamon`. (Multi-tenant)
-- 👉 `-job` - Job, work occasionally, or once `aka run app`. (Multi-tenant)
-- 👉 `-worker` - Worker, runs on request. (Multi-tenant)
-- 👉 `-app` - Personal Application. (Single-tenant)
-- 👉 `-schema` - Schema of interaction between services or layers.
-- 👉 `-kit` - A set of utilities.
