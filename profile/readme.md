@@ -4,7 +4,7 @@
 
 `be-` - Backend
 
-`bf-` - Backend For ...
+`bf-` - Backend For ... `aka API`
 
 `fe-` - Frontend
 
