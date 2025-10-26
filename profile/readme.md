@@ -3,14 +3,13 @@
 📚 This is a list of definitions and their descriptions so that we can speak the same language within the Waveix.
 
 ## 📌 Prefix in repositories name:
-- `ops-` - Operations `CI/CD etc.`
-- `mock-` - Mock 3rd-party Service
 - `be-` - Backend
-- `bf-` - Backend For `aka API`
+- `bf-` - Backend For ... `aka API`
 - `fe-` - Frontend
-- `tv-` - TV For
-- `ios-` - IOS For
-- `android-` - Android For
+- `tv-` - TV
+- `ios-` - IOS
+- `android-` - Android
+- `ops-` - Operations `aka CI/CD etc.`
 
 ## 📌 Suffix in repositories name:
 - `-schema` - Schema of interaction between services or layers.
@@ -45,3 +44,54 @@ Stateless-приложение = не хранит данные сессии/с�
 - 👉 `Elastic scaling` - автоматическое увеличение/уменьшение ресурсов.
 - 👉 `Fault tolerance` - система продолжает работать при сбоях.
 
+## Service
+
+- `be-catalog-graph-schema` - [DELETED]
+- `be-user-service-stats-graphql-schema` - [DELETED]
+- `be-user-service-schema` - [DELETED]
+- `be-ad-service-graphql-schema` - [DELETED]
+- `be-recsys-service-graphql-schema` - [DELETED]
+- `be-user-service-graphql-schema` - [DELETED]
+- `be-payment-service-graphql-schema` - [DELETED]
+- `mock-email-service` - [DELETED] Mock Email Service
+- `mock-text2vec-service` - [DELETED] Mock LLM Model Service (Word embedding)
+- `mock-s3-service` - [DELETED] Mock Simple Storage Service (S3)
+- 📊 `be-user-service-stats-schema` - [DELETED]
+- 🤑 `be-payment-service-schema` - [DELETED]
+
+1. 👤 `be-user-service` - User Service (SSO, Auth, Roles, etc.)
+
+2. 🎬 `be-catalog-service-schema` - Catalog API GraphQL (Scheme and Types for Go and NPM Managers)
+3. 🎬 `be-catalog-service` - Catalog Service (Movies, Series, TV shows, TV networks, etc.)
+4. 🎬 `be-catalog-sitemap-job` - Catalog Job Sitemap (Manage Sitemap Files)
+5. 🎬 `be-catalog-data-provider-job` - Catalog Job Data Provider (Fetching from TMDB, IMDb, JustWatch, etc.)
+
+6. 📊 `be-user-service-stats` - User Service Stats (Actions, History, Like, etc.)
+
+7. 🎲 `be-recsys-service-schema`
+8. 🎲 `be-recsys-service` - Recommender system Service (in ID, out IDs)
+9. 🎲 `be-recsys-ml-job` - Recommender system Job, gym for Model (Machine Learning)
+
+10. 🤑 `be-payment-service` - Payment Service (Gateway for handling payments)
+
+11. 👁️ `be-ad-service-schema`
+12. 👁️ `be-ad-service` - Ad Service (Advertising, Banners, Roles, etc.)
+
+13. 🎞️ `be-video-converter-job` - Video Job Converter (Video file prepare slice Video file)
+
+14. 🚀 `fe-vod-worker` - Video on Demand (Distribution, CDN, etc.)
+15. 🚀 `fe-iod-worker` - Image on Demand (Distribution, CDN, etc.)
+
+16. 🏢 `bf-back-office-worker-schema` - Back Office API GraphQL (Scheme and Types for Go and NPM Managers)
+17. 🏢 `bf-back-office-worker` - Backend for Back Office (API Gateway to Services via GraphQL Federation)
+18. 🏢 `fe-back-office-worker` - Manages Website Waveix (Single-Page Application, SPA)
+
+19. 🍿 `bf-front-office-worker-schema` - Front Office API GraphQL (Scheme and Types for Go and NPM Managers)
+20. 🍿 `bf-front-office-worker` - Backend for Front Office (API Gateway to Services via GraphQL Federation)
+21. 🍿 `fe-front-office-worker` - Website Waveix (Multi-Page Application, MPA)
+
+22. 🤖 `bf-mcp-worker` - Backend for MCP (API Gateway to Services via GraphQL Federation)
+
+23. 💼 `go-pkg-kit` - Golang Package Kit
+24. 💼 `ts-pkg-kit` - TypeScript Package Kit
+25. 💼 `ops-kit` - Operation Kit for Security, Development and Operations (Security by Design)
