@@ -44,37 +44,24 @@ Stateless-приложение = не хранит данные сессии/с�
 - 👉 `Elastic scaling` - автоматическое увеличение/уменьшение ресурсов.
 - 👉 `Fault tolerance` - система продолжает работать при сбоях.
 
-## Service
+## Repository List:
 
-- `be-catalog-graph-schema` - [DELETED]
-- `be-user-service-stats-graphql-schema` - [DELETED]
-- `be-user-service-schema` - [DELETED]
-- `be-ad-service-graphql-schema` - [DELETED]
-- `be-recsys-service-graphql-schema` - [DELETED]
-- `be-user-service-graphql-schema` - [DELETED]
-- `be-payment-service-graphql-schema` - [DELETED]
-- `mock-email-service` - [DELETED] Mock Email Service
-- `mock-text2vec-service` - [DELETED] Mock LLM Model Service (Word embedding)
-- `mock-s3-service` - [DELETED] Mock Simple Storage Service (S3)
-- 📊 `be-user-service-stats-schema` - [DELETED]
-- 🤑 `be-payment-service-schema` - [DELETED]
+1. 👤 `be-user-service` - User Service (SSO, Auth, Roles, etc.), use: Ory Krakos, Hydra
 
-1. 👤 `be-user-service` - User Service (SSO, Auth, Roles, etc.)
-
-2. 🎬 `be-catalog-service-schema` - Catalog API GraphQL (Scheme and Types for Go and NPM Managers)
+2. 🎬 `be-catalog-service-schema` - Catalog GraphQL API (Scheme and Types for Go and NPM Managers)
 3. 🎬 `be-catalog-service` - Catalog Service (Movies, Series, TV shows, TV networks, etc.)
 4. 🎬 `be-catalog-sitemap-job` - Catalog Job Sitemap (Manage Sitemap Files)
 5. 🎬 `be-catalog-data-provider-job` - Catalog Job Data Provider (Fetching from TMDB, IMDb, JustWatch, etc.)
 
 6. 📊 `be-user-service-stats` - User Service Stats (Actions, History, Like, etc.)
 
-7. 🎲 `be-recsys-service-schema`
-8. 🎲 `be-recsys-service` - Recommender system Service (in ID, out IDs)
+7. 🎲 `be-recsys-service-schema` - Recommender system GraphQL API (Scheme and Types for Python and NPM Managers)
+8. 🎲 `be-recsys-service` - Recommender system Service
 9. 🎲 `be-recsys-ml-job` - Recommender system Job, gym for Model (Machine Learning)
 
 10. 🤑 `be-payment-service` - Payment Service (Gateway for handling payments)
 
-11. 👁️ `be-ad-service-schema`
+11. 👁️ `be-ad-service-schema` - Catalog GraphQL API (Scheme and Types for Go and NPM Managers)
 12. 👁️ `be-ad-service` - Ad Service (Advertising, Banners, Roles, etc.)
 
 13. 🎞️ `be-video-converter-job` - Video Job Converter (Video file prepare slice Video file)
