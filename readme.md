@@ -1,5 +1,3 @@
-# DAO Waveix
+# WAVEIX
 
-(The Go Way and The TypeScript Way)
-
-## Цей репозиторій буде описувати правила і загальну документацію для команди Waveix.
+A young company that builds several products such as OTT, SSAI and Microagent system (A.G.E.N.T).
