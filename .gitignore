@@ -1,7 +1,10 @@
+*.local.json
+*.local.md
+
 .claude/
 .idea/
 .git/
 
 .DS_Store
-CLAUDE.md
 AGENTS.md
+CLAUDE.md
